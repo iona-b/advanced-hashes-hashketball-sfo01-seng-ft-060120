@@ -187,3 +187,12 @@ def num_points_scored(player)
 end
 
 def big_shoe_rebounds
+  largest_shoe_size = 0
+  game_hash.each do |key, value|
+    value[:players].each do |attribute, data|
+      if attribute[:shoe] < largest_shoe_size
+        largest_shoe_size = attribute[:shoe]
+      end
+    end
+  end
+end
