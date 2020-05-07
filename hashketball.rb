@@ -175,3 +175,6 @@ def player_stats(player)
     end
   end
 end
+
+def num_points_scored
+end
