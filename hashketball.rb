@@ -185,3 +185,5 @@ def num_points_scored(player)
     end
   end
 end
+
+def big_shoe_rebounds
