@@ -166,3 +166,10 @@ def player_numbers(team)
   end
   return jersey_numbers
 end
+
+def player_stats(player)
+  game_hash.each do |key, value|
+    value[:players].each do |attribute, data|
+    end
+  end
+end
