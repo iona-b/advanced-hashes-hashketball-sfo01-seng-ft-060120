@@ -193,6 +193,7 @@ def big_shoe_rebounds
       if attribute[:shoe] > largest_shoe_size
         largest_shoe_size = attribute[:shoe]
       end
+      binding.pry
     end
   end
 end
