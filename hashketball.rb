@@ -160,6 +160,7 @@ def player_numbers(team)
     if team == value[:team_name]
       value.each do |attribute, data|
         jersey_numbers.push(attribute[:number])
+      end
     end
   end
   return jersey_numbers
